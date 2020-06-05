@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         CI = 'true'
+        PATH = "C:\\WINDOWS\\SYSTEM32"
     }
     stages {
         stage('Build') {
