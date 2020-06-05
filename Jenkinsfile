@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat label: '', script: 'call  C:\Users\Priyesh_Kumar\Desktop\cv\index.html'     
+                bat label: '', script: 'call index.html'     
             }
         }
        
