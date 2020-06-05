@@ -4,6 +4,7 @@ pipeline {
         CI = 'true'
         PATH = "C:\\WINDOWS\\SYSTEM32"
     }
+    tools {nodejs "nodejs"}
     stages {
         stage('Build') {
             steps {
